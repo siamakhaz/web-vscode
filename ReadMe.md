@@ -69,4 +69,16 @@ Modify the `.dockerfile` to change the Docker image, the `.gitignore` to update 
 
 If you encounter any issues or have questions, please open an issue in the repository.
 
+## Contributing
+
+Feel free to contribute to this project by submitting pull requests or by reporting bugs and features through the issue tracker.
+
+## License
+This project is released under the [GNU LESSER GENERAL PUBLIC LICENSE](LICENSE).
+
+
+## Contact
+For questions and feedback, please open an issue in the repository, and we will get back to you.
+
+
 Enjoy coding in your web-based VSCode environment!
