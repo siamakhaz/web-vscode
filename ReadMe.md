@@ -74,7 +74,7 @@ If you encounter any issues or have questions, please open an issue in the repos
 Feel free to contribute to this project by submitting pull requests or by reporting bugs and features through the issue tracker.
 
 ## License
-This project is released under the [GNU LESSER GENERAL PUBLIC LICENSE](LICENSE).
+This project is released under the [MIT LICENSE](LICENSE).
 
 
 ## Contact
