@@ -29,7 +29,7 @@ cd web-vscode
 
 ## Running the Environment
 
-Depending on your operating system, use one of the following scripts to start the environment:
+Depending on your operating system, use one of the following scripts to start the environment.
 
 ### Windows
 
