@@ -16,7 +16,7 @@ The repository includes the following key components:
 
 ## Prerequisites
 
-- Docker installed on your system.
+- [Docker installed](https://docs.docker.com/engine/install/) on your system.
 
 ## Setup
 
