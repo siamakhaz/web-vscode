@@ -1,0 +1,28 @@
+version: "3.1"
+
+services:
+  vscode-python:
+    container_name: vscode
+    # image: codercom/code-server
+    build:  # This tells Docker Compose to build an image from the Dockerfile in the current directory
+      context: .
+      dockerfile:  ${DOCKERFILE_PATH}
+#    resources:
+#      limits:
+#        cpus: '4.0'
+#        memory: 10G    
+    ports:
+      # - "1988:8080"
+      - "${DOCKER_PORT:-1988}:8080"
+    volumes:
+      - .\data\.config:/root/.config/
+      - .\data\project:/home/coder/project
+      - .\data\code-server:/root/.local/share/code-server/
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - "DOCKER_USER=root"
+      - "PASSWORD=imdragon"  # Set your desired password here
+    user: root
+#    environment:
+#      - "DOCKER_USER=${USER}"
+#    user: ${CURRENT_USER-0:0} # Replace with your Windows user ID and group ID if needed
