@@ -41,7 +41,7 @@ Run `runme.bat` by double-clicking on it or executing it in a Command Prompt win
 
 ### Unix-like Systems (Linux/macOS)
 
-Make `runme.sh` executable and run it:
+Make `runme.sh` executable and run it: 
 
 ```sh
 chmod +x runme.sh
